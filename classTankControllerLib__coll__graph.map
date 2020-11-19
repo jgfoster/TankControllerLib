@@ -1,4 +1,6 @@
 <map id="TankControllerLib" name="TankControllerLib">
-<area shape="rect" id="node1" title=" " alt="" coords="5,95,129,121"/>
-<area shape="rect" id="node2" href="$classUIState.html" title=" " alt="" coords="34,5,101,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="11,171,135,197"/>
+<area shape="rect" id="node2" href="$classUIState.html" title=" " alt="" coords="5,81,72,108"/>
+<area shape="rect" id="node3" href="$classLiquidCrystal__TC.html" title=" " alt="" coords="97,81,218,108"/>
+<area shape="rect" id="node4" title=" " alt="" coords="109,5,206,32"/>
 </map>

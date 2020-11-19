@@ -1,5 +1,7 @@
 <map id="src/UIState/UIState.h" name="src/UIState/UIState.h">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,153,32"/>
-<area shape="rect" id="node2" href="$TankControllerLib_8h.html" title=" " alt="" coords="7,80,151,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="41,155,117,181"/>
+<area shape="rect" id="node1" title=" " alt="" coords="27,5,175,32"/>
+<area shape="rect" id="node2" href="$TankControllerLib_8h.html" title=" " alt="" coords="29,80,173,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,229,81,256"/>
+<area shape="rect" id="node4" href="$LiquidCrystal__TC_8h.html" title=" " alt="" coords="75,155,257,181"/>
+<area shape="rect" id="node5" title=" " alt="" coords="113,229,219,256"/>
 </map>
