@@ -65,6 +65,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="classLiquidCrystal__TC-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -104,6 +105,21 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a967f89ffe04c9d847bebed7bb7d234ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLiquidCrystal__TC.html#a967f89ffe04c9d847bebed7bb7d234ff">splashScreen</a> ()</td></tr>
 <tr class="separator:a967f89ffe04c9d847bebed7bb7d234ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a7f1928defa0aa91af3dd030c747130e8"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLiquidCrystal__TC.html#a7f1928defa0aa91af3dd030c747130e8">RS</a> = 24</td></tr>
+<tr class="separator:a7f1928defa0aa91af3dd030c747130e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2716d414794eae5d55edda9baeeebb99"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLiquidCrystal__TC.html#a2716d414794eae5d55edda9baeeebb99">EN</a> = 22</td></tr>
+<tr class="separator:a2716d414794eae5d55edda9baeeebb99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad694e25ffdd72e04202b8bdb10332e06"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLiquidCrystal__TC.html#ad694e25ffdd72e04202b8bdb10332e06">D4</a> = 26</td></tr>
+<tr class="separator:ad694e25ffdd72e04202b8bdb10332e06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abea6835859ac0e18c3b5c01b4af05537"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLiquidCrystal__TC.html#abea6835859ac0e18c3b5c01b4af05537">D5</a> = 28</td></tr>
+<tr class="separator:abea6835859ac0e18c3b5c01b4af05537"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad91145b92a2119d11ea7c302f6f197bf"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLiquidCrystal__TC.html#ad91145b92a2119d11ea7c302f6f197bf">D6</a> = 30</td></tr>
+<tr class="separator:ad91145b92a2119d11ea7c302f6f197bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99fbcc06073d549ba89646514ec34314"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLiquidCrystal__TC.html#a99fbcc06073d549ba89646514ec34314">D7</a> = 32</td></tr>
+<tr class="separator:a99fbcc06073d549ba89646514ec34314"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
 <tr class="memitem:a1759a1461add0011e235595ef8cd7f46"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classLiquidCrystal__TC.html">LiquidCrystal_TC</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLiquidCrystal__TC.html#a1759a1461add0011e235595ef8cd7f46">_instance</a> = nullptr</td></tr>
@@ -137,15 +153,15 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Constructor sets pins, dimensions, and shows splash screen </p>
 
-<p class="definition">Definition at line <a class="el" href="LiquidCrystal__TC_8cpp_source.html#l00018">18</a> of file <a class="el" href="LiquidCrystal__TC_8cpp_source.html">LiquidCrystal_TC.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                                   : LiquidCrystal(<a class="code" href="LiquidCrystal__TC_8cpp.html#a260f8d10f06c67cb957a1dabc0d1528b">RS</a>, <a class="code" href="LiquidCrystal__TC_8cpp.html#ac258d921936a269ce86c339d349b50bc">EN</a>, <a class="code" href="LiquidCrystal__TC_8cpp.html#a42616d5751eaa9b21c7e1d2f0b17d17b">D4</a>, <a class="code" href="LiquidCrystal__TC_8cpp.html#aab03d2950d8f735cdfa7469265ed46ea">D5</a>, <a class="code" href="LiquidCrystal__TC_8cpp.html#afa75697bf357469b698e3220c9fbdf3c">D6</a>, <a class="code" href="LiquidCrystal__TC_8cpp.html#ae37ace289f51e1107a9c8dc4454f08b8">D7</a>) {</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;  begin(16, 2);</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;  <a class="code" href="classLiquidCrystal__TC.html#a967f89ffe04c9d847bebed7bb7d234ff">splashScreen</a>();</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="LiquidCrystal__TC_8cpp_source.html#l00021">21</a> of file <a class="el" href="LiquidCrystal__TC_8cpp_source.html">LiquidCrystal_TC.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                                   : LiquidCrystal(<a class="code" href="classLiquidCrystal__TC.html#a7f1928defa0aa91af3dd030c747130e8">RS</a>, <a class="code" href="classLiquidCrystal__TC.html#a2716d414794eae5d55edda9baeeebb99">EN</a>, <a class="code" href="classLiquidCrystal__TC.html#ad694e25ffdd72e04202b8bdb10332e06">D4</a>, <a class="code" href="classLiquidCrystal__TC.html#abea6835859ac0e18c3b5c01b4af05537">D5</a>, <a class="code" href="classLiquidCrystal__TC.html#ad91145b92a2119d11ea7c302f6f197bf">D6</a>, <a class="code" href="classLiquidCrystal__TC.html#a99fbcc06073d549ba89646514ec34314">D7</a>) {</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  begin(16, 2);</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  <a class="code" href="classLiquidCrystal__TC.html#a967f89ffe04c9d847bebed7bb7d234ff">splashScreen</a>();</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="LiquidCrystal__TC_8cpp_source.html#l00043">splashScreen()</a>.</p>
+<p class="reference">References <a class="el" href="LiquidCrystal__TC_8cpp_source.html#l00046">splashScreen()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="LiquidCrystal__TC_8cpp_source.html#l00005">instance()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="LiquidCrystal__TC_8cpp_source.html#l00010">instance()</a>.</p>
 
 </div>
 </div>
@@ -172,16 +188,17 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>accessor for singleton </p>
 
-<p class="definition">Definition at line <a class="el" href="LiquidCrystal__TC_8cpp_source.html#l00005">5</a> of file <a class="el" href="LiquidCrystal__TC_8cpp_source.html">LiquidCrystal_TC.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;                                             {</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;  <span class="keywordflow">if</span> (!<a class="code" href="classLiquidCrystal__TC.html#a1759a1461add0011e235595ef8cd7f46">_instance</a>) {</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <a class="code" href="classLiquidCrystal__TC.html#a1759a1461add0011e235595ef8cd7f46">_instance</a> = <span class="keyword">new</span> <a class="code" href="classLiquidCrystal__TC.html#a127762ac0dd655d2299d97c5ef296911">LiquidCrystal_TC</a>();</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;  }</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="classLiquidCrystal__TC.html#a1759a1461add0011e235595ef8cd7f46">_instance</a>;</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="LiquidCrystal__TC_8cpp_source.html#l00010">10</a> of file <a class="el" href="LiquidCrystal__TC_8cpp_source.html">LiquidCrystal_TC.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;                                             {</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;  <span class="keywordflow">if</span> (!<a class="code" href="classLiquidCrystal__TC.html#a1759a1461add0011e235595ef8cd7f46">_instance</a>) {</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <a class="code" href="classLiquidCrystal__TC.html#a1759a1461add0011e235595ef8cd7f46">_instance</a> = <span class="keyword">new</span> <a class="code" href="classLiquidCrystal__TC.html#a127762ac0dd655d2299d97c5ef296911">LiquidCrystal_TC</a>();</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;  }</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="classLiquidCrystal__TC.html#a1759a1461add0011e235595ef8cd7f46">_instance</a>;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="LiquidCrystal__TC_8h_source.html#l00014">_instance</a>, and <a class="el" href="LiquidCrystal__TC_8cpp_source.html#l00018">LiquidCrystal_TC()</a>.</p>
+<p class="reference">References <a class="el" href="LiquidCrystal__TC_8h_source.html#l00015">_instance</a>, and <a class="el" href="LiquidCrystal__TC_8cpp_source.html#l00021">LiquidCrystal_TC()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="TankControllerLib_8cpp_source.html#l00034">TankControllerLib::TankControllerLib()</a>, and <a class="el" href="LiquidCrystal_8cpp_source.html#l00009">unittest()</a>.</p>
 
@@ -211,39 +228,39 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Splash screen includes the following logo (actually, this one is double width to get it more nearly porportional): XXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXX XXXXXXXXXX XXXXXX XXXXXX XXXXXXXXXX XXXXXXXXXX XXXX XXXX XXXX XXXXXXXXXXXXXX XXXXXX XXXXXX XXXXXX XX XXXX XX XXXXXXXX XXXX XXXX XXXXXXXX XXXXXXXXXX XXXXXXXXXX XXXXXXXX XXXX XXXX XXXXXXXX XX XXXX XX XXXXXX XXXXXX XXXXXX XXXXXXXXXXXXXX XXXX XXXX XXXX XXXXXXXXXX XXXXXXXXXX XXXXXX XXXXXX XXXXXXXXXX XXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXX </p>
 
-<p class="definition">Definition at line <a class="el" href="LiquidCrystal__TC_8cpp_source.html#l00043">43</a> of file <a class="el" href="LiquidCrystal__TC_8cpp_source.html">LiquidCrystal_TC.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                                    {</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  uint8_t OL1[8] = {0b00000, 0b00000, 0b00001, 0b00011, 0b00011, 0b00111, 0b00111, 0b00110};</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  uint8_t OL2[8] = {0b00111, 0b11111, 0b11111, 0b10011, 0b11101, 0b11110, 0b00101, 0b11011};</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  uint8_t OL3[8] = {0b11100, 0b11111, 0b01111, 0b10111, 0b10110, 0b01110, 0b10101, 0b11011};</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  uint8_t OL4[8] = {0b00000, 0b00000, 0b10000, 0b11000, 0b11000, 0b11100, 0b11100, 0b11100};</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  uint8_t OL5[8] = {0b00111, 0b00111, 0b00111, 0b00011, 0b00011, 0b00001, 0b00000, 0b00000};</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  uint8_t OL6[8] = {0b11011, 0b10101, 0b01110, 0b01101, 0b11101, 0b11110, 0b11111, 0b00111};</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  uint8_t OL7[8] = {0b11011, 0b10100, 0b01111, 0b10111, 0b11001, 0b11111, 0b11111, 0b11100};</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  uint8_t OL8[8] = {0b01100, 0b11100, 0b11100, 0b11000, 0b11000, 0b10000, 0b00000, 0b00000};</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  createChar(0, OL1);</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  createChar(1, OL2);</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;  createChar(2, OL3);</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;  createChar(3, OL4);</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;  createChar(4, OL5);</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  createChar(5, OL6);</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  createChar(6, OL7);</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;  createChar(7, OL8);</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;  clear();</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;  write(uint8_t(0));</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;  write(uint8_t(1));</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;  write(uint8_t(2));</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;  write(uint8_t(3));</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  print(F(<span class="stringliteral">&quot; ONTHANK LAB&quot;</span>));</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;  setCursor(0, 1);</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;  write(uint8_t(4));</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;  write(uint8_t(5));</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  write(uint8_t(6));</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;  write(uint8_t(7));</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;  print(F(<span class="stringliteral">&quot;TANK CONTROL&quot;</span>));</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="LiquidCrystal__TC_8cpp_source.html#l00046">46</a> of file <a class="el" href="LiquidCrystal__TC_8cpp_source.html">LiquidCrystal_TC.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                                    {</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  uint8_t OL1[8] = {0b00000, 0b00000, 0b00001, 0b00011, 0b00011, 0b00111, 0b00111, 0b00110};</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  uint8_t OL2[8] = {0b00111, 0b11111, 0b11111, 0b10011, 0b11101, 0b11110, 0b00101, 0b11011};</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  uint8_t OL3[8] = {0b11100, 0b11111, 0b01111, 0b10111, 0b10110, 0b01110, 0b10101, 0b11011};</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  uint8_t OL4[8] = {0b00000, 0b00000, 0b10000, 0b11000, 0b11000, 0b11100, 0b11100, 0b11100};</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  uint8_t OL5[8] = {0b00111, 0b00111, 0b00111, 0b00011, 0b00011, 0b00001, 0b00000, 0b00000};</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  uint8_t OL6[8] = {0b11011, 0b10101, 0b01110, 0b01101, 0b11101, 0b11110, 0b11111, 0b00111};</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  uint8_t OL7[8] = {0b11011, 0b10100, 0b01111, 0b10111, 0b11001, 0b11111, 0b11111, 0b11100};</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;  uint8_t OL8[8] = {0b01100, 0b11100, 0b11100, 0b11000, 0b11000, 0b10000, 0b00000, 0b00000};</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;  createChar(0, OL1);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;  createChar(1, OL2);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  createChar(2, OL3);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  createChar(3, OL4);</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;  createChar(4, OL5);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;  createChar(5, OL6);</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;  createChar(6, OL7);</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;  createChar(7, OL8);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;  clear();</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;  write(uint8_t(0));</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  write(uint8_t(1));</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;  write(uint8_t(2));</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;  write(uint8_t(3));</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;  print(F(<span class="stringliteral">&quot; ONTHANK LAB&quot;</span>));</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  setCursor(0, 1);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;  write(uint8_t(4));</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;  write(uint8_t(5));</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;  write(uint8_t(6));</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;  write(uint8_t(7));</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;  print(F(<span class="stringliteral">&quot;TANK CONTROL&quot;</span>));</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="LiquidCrystal__TC_8cpp_source.html#l00018">LiquidCrystal_TC()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="LiquidCrystal__TC_8cpp_source.html#l00021">LiquidCrystal_TC()</a>.</p>
 
 </div>
 </div>
@@ -268,9 +285,153 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="LiquidCrystal__TC_8h_source.html#l00014">14</a> of file <a class="el" href="LiquidCrystal__TC_8h_source.html">LiquidCrystal_TC.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="LiquidCrystal__TC_8h_source.html#l00015">15</a> of file <a class="el" href="LiquidCrystal__TC_8h_source.html">LiquidCrystal_TC.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="LiquidCrystal__TC_8cpp_source.html#l00005">instance()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="LiquidCrystal__TC_8cpp_source.html#l00010">instance()</a>.</p>
+
+</div>
+</div>
+<a id="ad694e25ffdd72e04202b8bdb10332e06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad694e25ffdd72e04202b8bdb10332e06">&#9670;&nbsp;</a></span>D4</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int LiquidCrystal_TC::D4 = 26</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="LiquidCrystal__TC_8h_source.html#l00019">19</a> of file <a class="el" href="LiquidCrystal__TC_8h_source.html">LiquidCrystal_TC.h</a>.</p>
+
+</div>
+</div>
+<a id="abea6835859ac0e18c3b5c01b4af05537"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abea6835859ac0e18c3b5c01b4af05537">&#9670;&nbsp;</a></span>D5</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int LiquidCrystal_TC::D5 = 28</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="LiquidCrystal__TC_8h_source.html#l00019">19</a> of file <a class="el" href="LiquidCrystal__TC_8h_source.html">LiquidCrystal_TC.h</a>.</p>
+
+</div>
+</div>
+<a id="ad91145b92a2119d11ea7c302f6f197bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad91145b92a2119d11ea7c302f6f197bf">&#9670;&nbsp;</a></span>D6</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int LiquidCrystal_TC::D6 = 30</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="LiquidCrystal__TC_8h_source.html#l00019">19</a> of file <a class="el" href="LiquidCrystal__TC_8h_source.html">LiquidCrystal_TC.h</a>.</p>
+
+</div>
+</div>
+<a id="a99fbcc06073d549ba89646514ec34314"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99fbcc06073d549ba89646514ec34314">&#9670;&nbsp;</a></span>D7</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int LiquidCrystal_TC::D7 = 32</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="LiquidCrystal__TC_8h_source.html#l00019">19</a> of file <a class="el" href="LiquidCrystal__TC_8h_source.html">LiquidCrystal_TC.h</a>.</p>
+
+</div>
+</div>
+<a id="a2716d414794eae5d55edda9baeeebb99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2716d414794eae5d55edda9baeeebb99">&#9670;&nbsp;</a></span>EN</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int LiquidCrystal_TC::EN = 22</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="LiquidCrystal__TC_8h_source.html#l00019">19</a> of file <a class="el" href="LiquidCrystal__TC_8h_source.html">LiquidCrystal_TC.h</a>.</p>
+
+</div>
+</div>
+<a id="a7f1928defa0aa91af3dd030c747130e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f1928defa0aa91af3dd030c747130e8">&#9670;&nbsp;</a></span>RS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int LiquidCrystal_TC::RS = 24</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="LiquidCrystal__TC_8h_source.html#l00019">19</a> of file <a class="el" href="LiquidCrystal__TC_8h_source.html">LiquidCrystal_TC.h</a>.</p>
 
 </div>
 </div>
@@ -279,15 +440,15 @@ Static Private Attributes</h2></td></tr>
 <li>src/Devices/<a class="el" href="LiquidCrystal__TC_8cpp_source.html">LiquidCrystal_TC.cpp</a></li>
 </ul>
 </div><!-- contents -->
-<div class="ttc" id="aLiquidCrystal__TC_8cpp_html_ae37ace289f51e1107a9c8dc4454f08b8"><div class="ttname"><a href="LiquidCrystal__TC_8cpp.html#ae37ace289f51e1107a9c8dc4454f08b8">D7</a></div><div class="ttdeci">const int D7</div><div class="ttdef"><b>Definition:</b> <a href="LiquidCrystal__TC_8cpp_source.html#l00013">LiquidCrystal_TC.cpp:13</a></div></div>
-<div class="ttc" id="aLiquidCrystal__TC_8cpp_html_aab03d2950d8f735cdfa7469265ed46ea"><div class="ttname"><a href="LiquidCrystal__TC_8cpp.html#aab03d2950d8f735cdfa7469265ed46ea">D5</a></div><div class="ttdeci">const int D5</div><div class="ttdef"><b>Definition:</b> <a href="LiquidCrystal__TC_8cpp_source.html#l00013">LiquidCrystal_TC.cpp:13</a></div></div>
-<div class="ttc" id="aclassLiquidCrystal__TC_html_a127762ac0dd655d2299d97c5ef296911"><div class="ttname"><a href="classLiquidCrystal__TC.html#a127762ac0dd655d2299d97c5ef296911">LiquidCrystal_TC::LiquidCrystal_TC</a></div><div class="ttdeci">LiquidCrystal_TC()</div><div class="ttdef"><b>Definition:</b> <a href="LiquidCrystal__TC_8cpp_source.html#l00018">LiquidCrystal_TC.cpp:18</a></div></div>
-<div class="ttc" id="aLiquidCrystal__TC_8cpp_html_a42616d5751eaa9b21c7e1d2f0b17d17b"><div class="ttname"><a href="LiquidCrystal__TC_8cpp.html#a42616d5751eaa9b21c7e1d2f0b17d17b">D4</a></div><div class="ttdeci">const int D4</div><div class="ttdef"><b>Definition:</b> <a href="LiquidCrystal__TC_8cpp_source.html#l00013">LiquidCrystal_TC.cpp:13</a></div></div>
-<div class="ttc" id="aclassLiquidCrystal__TC_html_a967f89ffe04c9d847bebed7bb7d234ff"><div class="ttname"><a href="classLiquidCrystal__TC.html#a967f89ffe04c9d847bebed7bb7d234ff">LiquidCrystal_TC::splashScreen</a></div><div class="ttdeci">void splashScreen()</div><div class="ttdef"><b>Definition:</b> <a href="LiquidCrystal__TC_8cpp_source.html#l00043">LiquidCrystal_TC.cpp:43</a></div></div>
-<div class="ttc" id="aLiquidCrystal__TC_8cpp_html_a260f8d10f06c67cb957a1dabc0d1528b"><div class="ttname"><a href="LiquidCrystal__TC_8cpp.html#a260f8d10f06c67cb957a1dabc0d1528b">RS</a></div><div class="ttdeci">const int RS</div><div class="ttdef"><b>Definition:</b> <a href="LiquidCrystal__TC_8cpp_source.html#l00013">LiquidCrystal_TC.cpp:13</a></div></div>
-<div class="ttc" id="aLiquidCrystal__TC_8cpp_html_afa75697bf357469b698e3220c9fbdf3c"><div class="ttname"><a href="LiquidCrystal__TC_8cpp.html#afa75697bf357469b698e3220c9fbdf3c">D6</a></div><div class="ttdeci">const int D6</div><div class="ttdef"><b>Definition:</b> <a href="LiquidCrystal__TC_8cpp_source.html#l00013">LiquidCrystal_TC.cpp:13</a></div></div>
-<div class="ttc" id="aLiquidCrystal__TC_8cpp_html_ac258d921936a269ce86c339d349b50bc"><div class="ttname"><a href="LiquidCrystal__TC_8cpp.html#ac258d921936a269ce86c339d349b50bc">EN</a></div><div class="ttdeci">const int EN</div><div class="ttdef"><b>Definition:</b> <a href="LiquidCrystal__TC_8cpp_source.html#l00013">LiquidCrystal_TC.cpp:13</a></div></div>
-<div class="ttc" id="aclassLiquidCrystal__TC_html_a1759a1461add0011e235595ef8cd7f46"><div class="ttname"><a href="classLiquidCrystal__TC.html#a1759a1461add0011e235595ef8cd7f46">LiquidCrystal_TC::_instance</a></div><div class="ttdeci">static LiquidCrystal_TC * _instance</div><div class="ttdef"><b>Definition:</b> <a href="LiquidCrystal__TC_8h_source.html#l00014">LiquidCrystal_TC.h:14</a></div></div>
+<div class="ttc" id="aclassLiquidCrystal__TC_html_a7f1928defa0aa91af3dd030c747130e8"><div class="ttname"><a href="classLiquidCrystal__TC.html#a7f1928defa0aa91af3dd030c747130e8">LiquidCrystal_TC::RS</a></div><div class="ttdeci">const int RS</div><div class="ttdef"><b>Definition:</b> <a href="LiquidCrystal__TC_8h_source.html#l00019">LiquidCrystal_TC.h:19</a></div></div>
+<div class="ttc" id="aclassLiquidCrystal__TC_html_a2716d414794eae5d55edda9baeeebb99"><div class="ttname"><a href="classLiquidCrystal__TC.html#a2716d414794eae5d55edda9baeeebb99">LiquidCrystal_TC::EN</a></div><div class="ttdeci">const int EN</div><div class="ttdef"><b>Definition:</b> <a href="LiquidCrystal__TC_8h_source.html#l00019">LiquidCrystal_TC.h:19</a></div></div>
+<div class="ttc" id="aclassLiquidCrystal__TC_html_a127762ac0dd655d2299d97c5ef296911"><div class="ttname"><a href="classLiquidCrystal__TC.html#a127762ac0dd655d2299d97c5ef296911">LiquidCrystal_TC::LiquidCrystal_TC</a></div><div class="ttdeci">LiquidCrystal_TC()</div><div class="ttdef"><b>Definition:</b> <a href="LiquidCrystal__TC_8cpp_source.html#l00021">LiquidCrystal_TC.cpp:21</a></div></div>
+<div class="ttc" id="aclassLiquidCrystal__TC_html_ad694e25ffdd72e04202b8bdb10332e06"><div class="ttname"><a href="classLiquidCrystal__TC.html#ad694e25ffdd72e04202b8bdb10332e06">LiquidCrystal_TC::D4</a></div><div class="ttdeci">const int D4</div><div class="ttdef"><b>Definition:</b> <a href="LiquidCrystal__TC_8h_source.html#l00019">LiquidCrystal_TC.h:19</a></div></div>
+<div class="ttc" id="aclassLiquidCrystal__TC_html_a967f89ffe04c9d847bebed7bb7d234ff"><div class="ttname"><a href="classLiquidCrystal__TC.html#a967f89ffe04c9d847bebed7bb7d234ff">LiquidCrystal_TC::splashScreen</a></div><div class="ttdeci">void splashScreen()</div><div class="ttdef"><b>Definition:</b> <a href="LiquidCrystal__TC_8cpp_source.html#l00046">LiquidCrystal_TC.cpp:46</a></div></div>
+<div class="ttc" id="aclassLiquidCrystal__TC_html_a99fbcc06073d549ba89646514ec34314"><div class="ttname"><a href="classLiquidCrystal__TC.html#a99fbcc06073d549ba89646514ec34314">LiquidCrystal_TC::D7</a></div><div class="ttdeci">const int D7</div><div class="ttdef"><b>Definition:</b> <a href="LiquidCrystal__TC_8h_source.html#l00019">LiquidCrystal_TC.h:19</a></div></div>
+<div class="ttc" id="aclassLiquidCrystal__TC_html_abea6835859ac0e18c3b5c01b4af05537"><div class="ttname"><a href="classLiquidCrystal__TC.html#abea6835859ac0e18c3b5c01b4af05537">LiquidCrystal_TC::D5</a></div><div class="ttdeci">const int D5</div><div class="ttdef"><b>Definition:</b> <a href="LiquidCrystal__TC_8h_source.html#l00019">LiquidCrystal_TC.h:19</a></div></div>
+<div class="ttc" id="aclassLiquidCrystal__TC_html_a1759a1461add0011e235595ef8cd7f46"><div class="ttname"><a href="classLiquidCrystal__TC.html#a1759a1461add0011e235595ef8cd7f46">LiquidCrystal_TC::_instance</a></div><div class="ttdeci">static LiquidCrystal_TC * _instance</div><div class="ttdef"><b>Definition:</b> <a href="LiquidCrystal__TC_8h_source.html#l00015">LiquidCrystal_TC.h:15</a></div></div>
+<div class="ttc" id="aclassLiquidCrystal__TC_html_ad91145b92a2119d11ea7c302f6f197bf"><div class="ttname"><a href="classLiquidCrystal__TC.html#ad91145b92a2119d11ea7c302f6f197bf">LiquidCrystal_TC::D6</a></div><div class="ttdeci">const int D6</div><div class="ttdef"><b>Definition:</b> <a href="LiquidCrystal__TC_8h_source.html#l00019">LiquidCrystal_TC.h:19</a></div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by&#160;<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20
