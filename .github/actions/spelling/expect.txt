@@ -67,7 +67,7 @@ png
 pragma
 println
 py
-ybind
+pybind
 rb
 README
 REFIN
@@ -87,6 +87,7 @@ substr
 testfile
 TODO
 uint
+Unicode
 unittest
 unshallow
 url
