@@ -11,3 +11,4 @@ Doxyfile
 LICENSE
 .all-contributorsrc
 .gitignore
+Makefile
