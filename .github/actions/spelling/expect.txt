@@ -5,8 +5,10 @@ ASingle
 autotune
 avr
 cassert
+cfg
 ci
 Clib
+cmake
 config
 cout
 cpp
