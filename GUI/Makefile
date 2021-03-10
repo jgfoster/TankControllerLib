@@ -1,7 +1,7 @@
 CC = g++ -std=c++17 -O3
 DEFINES = -D__AVR__ -D__AVR_ATmega2560__ -DARDUINO_ARCH_AVR -DARDUINO_AVR_MEGA2560 -DARDUINO=100
 ifndef ARDUINO_CI
-	ARDUINO_CI = ../vendor/bundle/ruby/*/gems/arduino_ci*/cpp/arduino
+	ARDUINO_CI = $(HOME)/Documents/Arduino/arduino_ci/cpp/arduino
 endif
 ifndef LIBRARIES
 	LIBRARIES = $(shell bundle exec arduino_library_location.rb)
@@ -76,8 +76,8 @@ Godmode.o :
 	# install wx
 	python -m pip install -U wxPython
 	# build pybind11
-	mkdir -p ../pybind/build
-	cd ../pybind/build; cmake ..
+	mkdir -p ../pybind11/build
+	cd ../pybind11/build; cmake ..
 	# compile and run tests
 	# make check -j 4
 	echo
